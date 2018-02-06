@@ -21,6 +21,13 @@
             <artifactId>aws-java-sdk</artifactId>
             <version>1.11.271</version>
         </dependency>
+
+        <!-- For protobuf local lib -->
+        <dependency>
+            <groupId>com.shaunscaling</groupId>
+            <artifactId>protobuftest</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>

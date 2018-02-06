@@ -7,4 +7,5 @@ Resources:
       Handler: com.shaunscaling.lambdatest.S3Handler::onPut
       Runtime: java8
       CodeUri: ./target/lambdatest-1.0-SNAPSHOT.jar
-
+      # 60 seconds
+      Timeout: 60

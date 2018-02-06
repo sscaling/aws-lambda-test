@@ -65,7 +65,9 @@ curl -XPATCH http://localhost:3000/products
 
 **Java - with S3 Event**
 
-Uses `./template.yaml` to define function
+Requires the [protobuf-test](https://github.com/sscaling/protobuf-test) artifact to be installed locally.
+
+Uses `./template.yaml` to define function / behaviour (the SAM spec)
 
 ```
 mvn package
