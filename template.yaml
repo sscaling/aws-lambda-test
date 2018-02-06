@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Resources:
+  S3Handler:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: com.shaunscaling.lambdatest.S3Handler::onPut
+      Runtime: java8
+      CodeUri: ./target/lambdatest-1.0-SNAPSHOT.jar
+
